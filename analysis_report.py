@@ -14,7 +14,7 @@ yoy = round(nov.get("2014", 0) / max(nov.get("2013", 1), 1), 1)
 md = f"""# 天池母婴电商数据分析报告
 
 > 数据来源：`data/mum_baby.csv`（婴儿信息表 {S['raw']['baby']:,} 条）+ `data/trade_history.csv`（交易记录表 {S['raw']['trade']:,} 条）
-> 在线看板：[GitHub Pages](https://YOUR_USERNAME.github.io/mum-baby-dashboard/) · 统计口径与 `analysis_stats.json` 一致
+> 在线看板：[GitHub Pages](https://kingston-zjq.github.io/tianchi-mum-baby/) · 统计口径与 `analysis_stats.json` 一致
 
 ## 一、执行摘要
 

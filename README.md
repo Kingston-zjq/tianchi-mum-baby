@@ -2,11 +2,21 @@
 
 基于天池母婴电商数据集的销售趋势、类目结构与用户画像分析，包含 **15 张交互式图表** 的可视化看板。
 
+[![Pages](https://img.shields.io/badge/仪表盘-Live-4F46E5?style=flat-square)](https://kingston-zjq.github.io/tianchi-mum-baby/)
+[![Python](https://img.shields.io/badge/Pandas-3.0-150458?style=flat-square)]()
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)]()
+
 ## 📊 在线看板
 
-**[点击查看交互式仪表盘 →](https://YOUR_USERNAME.github.io/mum-baby-dashboard/)**
+### ▶️ **[点击查看交互式仪表盘 →](https://kingston-zjq.github.io/tianchi-mum-baby/)**
 
 > 本地查看：直接用浏览器打开 `docs/index.html`（已内嵌 plotly.js，无需联网、无需服务器）
+
+看板包含：
+- **核心指标卡** ×6 — 总销量、订单、11月贡献、类目集中度、复购率、核心人群
+- **趋势分析** — 月度销量（含移动平均）、销量订单双轴、年度 × 月份热力图
+- **类目结构** — 一级类目占比、Top12 二级类目、结构演变堆叠面积、帕累托分析
+- **用户画像** — 单笔件数结构、复购频次、性别对比、月龄分布、孕期备货占比
 
 ## 📈 核心结论
 
