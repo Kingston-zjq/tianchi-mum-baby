@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# 临时文件
+*.tmp
+*.log
+~$*
+
+# WorkBuddy 内部数据（含会话记忆，不应上传）
+.workbuddy/
